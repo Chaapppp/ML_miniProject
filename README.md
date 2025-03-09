@@ -29,18 +29,20 @@ The system uses the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tm
 
 1. Run the Jupyter notebooks to generate preprocessed model files:
 
+   - `Emotion_Based_cosine_Recommendation_System.ipynb`
+  
    - `Emotion_Based_Recommendation_System.ipynb`
    
    - `Movie_Recommendation_System.ipynb`
    
-   These notebooks generate `(movie_data.pkl, movie_emotion.pkl, lstm_movie_model.h5)` required for the recommendation system. 
+   These notebooks generate `(movie_emotion.pkl, lstm_movie_model.h5, movie_data.pkl)` required for the recommendation system. 
 
-3. Run the Streamlit app:
+2. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
 
-4. Open your web browser and go to `http://localhost:8501`.
+3. Open your web browser and go to `http://localhost:8501`.
 
 ### Application
 
