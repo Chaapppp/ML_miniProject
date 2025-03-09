@@ -27,14 +27,36 @@ The system uses the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tm
     ```
 ### Usage
 
-1. Run `Emotion_Based_Recommendation_System.ipynb` and `Movie_Recommendation_System.ipynb` first to generate .pkl files `[movie_data.pkl, movie_emotion.pkl]` required for the recommendation system.
+1. Run Run the Jupyter notebooks to generate preprocessed .pkl files:
 
-2. Run the Streamlit app:
+   - `Emotion_Based_Recommendation_System.ipynb`
+   
+   - `Movie_Recommendation_System.ipynb`
+   
+   These notebooks generate `(movie_data.pkl, movie_emotion.pkl)` required for the recommendation system. 
+
+3. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
 
-3. Open your web browser and go to `http://localhost:8501`.
+4. Open your web browser and go to `http://localhost:8501`.
+
+### How to Use
+
+- **Movie Recommendation Page**
+
+1. Select up to 5 movies from the dropdown menu.
+2. Click on "Recommend" to get your personalized movie recommendations.
+3. View the recommended movies along with their posters.
+4. Click "Get More Recommendations" to load additional recommendations.
+
+- **Emotion-Based Recommendation Page**
+
+1. Select an emotion from the available list.
+2. Click on "Recommend" to get movie suggestions based on your mood.
+3. View the recommended movies along with their posters.
+4. Click "Get More Recommendations" to see additional movie recommendations.
 
 ### Model Architecture
 The system consists of two main models:
