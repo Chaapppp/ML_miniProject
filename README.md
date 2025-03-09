@@ -27,13 +27,13 @@ The system uses the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tm
     ```
 ### Usage
 
-1. Run the Jupyter notebooks to generate preprocessed .pkl files:
+1. Run the Jupyter notebooks to generate preprocessed model files:
 
    - `Emotion_Based_Recommendation_System.ipynb`
    
    - `Movie_Recommendation_System.ipynb`
    
-   These notebooks generate `(movie_data.pkl, movie_emotion.pkl)` required for the recommendation system. 
+   These notebooks generate `(movie_data.pkl, movie_emotion.pkl, lstm_movie_model.h5)` required for the recommendation system. 
 
 3. Run the Streamlit app:
     ```bash
@@ -61,7 +61,7 @@ The system uses the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tm
 ### Model Architecture
 The system consists of two main models:
 - **Content-Based Filtering Model**: Uses cosine similarity on movie features to recommend similar movies.
-- **Emotion-Based Model**: Maps emotions to specific genres and recommends movies accordingly using RandomForestRegressor.
+- **Emotion-Based Model**: Maps emotions to specific genres and recommends movies accordingly using LSTM and cosine similarity.
 
 ### Web Application
 The web interface is built using **Streamlit**, and it includes two main pages:
