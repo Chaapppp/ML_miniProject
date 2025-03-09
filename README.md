@@ -63,6 +63,9 @@ The system consists of two main models:
 - **Content-Based Filtering Model**: Uses cosine similarity on movie features to recommend similar movies.
 - **Emotion-Based Model**: Maps emotions to specific genres and recommends movies accordingly using LSTM and cosine similarity.
 
+    ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-09%20213352.png)
+
+
 ### Web Application
 The web interface is built using **Streamlit**, and it includes two main pages:
 1. **Movie Recommendation Page**
