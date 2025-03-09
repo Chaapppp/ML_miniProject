@@ -20,12 +20,12 @@ project_page_1 = st.Page(
     "pages/movie_recommend_page.py",
     title="Movie Recommendation",
     icon=":material/movie:",
+    default=True,
 )
 project_page_2 = st.Page(    
     "pages/emotion_based_page.py",
     title="Emotion-Based Recommendation",
     icon=":material/mood:",
-    default=True,
 )
 
 pg = st.navigation(
