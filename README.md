@@ -27,7 +27,7 @@ The system uses the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tm
     ```
 ### Usage
 
-1. Run Run the Jupyter notebooks to generate preprocessed .pkl files:
+1. Run the Jupyter notebooks to generate preprocessed .pkl files:
 
    - `Emotion_Based_Recommendation_System.ipynb`
    
@@ -42,7 +42,7 @@ The system uses the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tm
 
 4. Open your web browser and go to `http://localhost:8501`.
 
-### How to Use
+### Application
 
 - **Movie Recommendation Page**
 
