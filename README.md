@@ -84,8 +84,8 @@ The web interface is built using **Streamlit**, and it includes two main pages:
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163232.png)
 
-- Users can view a list of movies they have selected previously, complete with movie posters and titles.
-- Personalized Movie Recommendations based on the selected movies, the system recommends new movies that match the user's taste.
+    - Users can view a list of movies they have selected previously, complete with movie posters and titles.
+    - Personalized Movie Recommendations based on the selected movies, the system recommends new movies that match the user's taste.
     
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20204032.png)
 
@@ -100,7 +100,7 @@ The web interface is built using **Streamlit**, and it includes two main pages:
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20203949.png)
 
-5. **Emotion-Based Recommendation Page**
+6. **Emotion-Based Recommendation Page**
     - Users select an emotion from a predefined list.
     - Suggests movies associated with the emotion's relevant genres.
     - Provides an option to get more recommendations.
@@ -110,3 +110,6 @@ The web interface is built using **Streamlit**, and it includes two main pages:
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20203806.png)
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163153.png)
+
+### Video 
+- **Application**: [YouTube Video]([https://youtu.be/HWr2KuyTWa0](https://youtu.be/c9kyYOUxIbg?si=dtHzKxLA3t5wZgzB)  
