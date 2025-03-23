@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import requests
+import csv
 import pickle
 
 # Load the processed data and similarity matrix
@@ -51,9 +52,36 @@ if "recommendations" not in st.session_state:
 # **Force Reset Button State on Page Load**
 if st.session_state.recommendations.empty:
     st.session_state.show_more_button = False  # Hide button if no recommendations exist
-   
+
 # Add placeholder option to movie selection dropdown
 selected_movie = st.selectbox("Select a movie:", movies['title'].values, index=None)
+
+
+def save_selected_movies_as_csv():
+    if st.session_state.selected_movies:
+        # Define the file path where the CSV will be saved (directly)
+        file_path = "selected_movies.csv"  # File will be saved in the current working directory
+
+        with open(file_path, 'w', newline='') as csvfile:
+            csv_writer = csv.writer(csvfile)
+
+            csv_writer.writerow(['title', 'movie_id', 'genres'])
+
+            for movie in st.session_state.selected_movies:
+                # Get movie information from the movies DataFrame (assuming movie titles exist)
+                movie_data = movies[movies['title'] == movie]
+                
+                if not movie_data.empty:
+                    movie_title = movie_data['title'].values[0]
+                    movie_id = movie_data['movie_id'].values[0]
+                    movie_genre = movie_data['genres'].values[0] 
+                    
+                    # If genre is a list or multiple, you can join them into a string
+                    if isinstance(movie_genre, list):
+                        movie_genre = ', '.join(movie_genre)
+                    
+                    # Write the movie title and genre to the CSV
+                    csv_writer.writerow([movie_title, movie_id, movie_genre])
 
 left_column, right_column = st.columns([5.8, 1])  # Adjust column width as needed
 
@@ -132,6 +160,8 @@ if recommendations_clicked:
                             if poster_url:
                                 st.image(poster_url, width=130)
                             st.markdown(f"<div align='center'>{movie_title}</div>", unsafe_allow_html=True)
+
+            csv = save_selected_movies_as_csv()
 
 # Re-Recommendation Button 
 if st.session_state.get("show_more_button", False) and not st.session_state.recommendations.empty:
