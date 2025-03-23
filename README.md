@@ -1,6 +1,4 @@
-**Still Updating**
-**ยังทำการแก้ไขอยู่**
- # **Movie Recommendation System**
+# **Movie Recommendation System**
 
 ### Overview
 This project is a **Movie Recommendation System** that provides movie suggestions based on user-selected movies and emotional states. The system includes two recommendation approaches:
@@ -72,22 +70,43 @@ The system consists of two main models:
 
 ### Web Application
 The web interface is built using **Streamlit**, and it includes two main pages:
-1. **Movie Recommendation Page**
+1. **Login Page**
+
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163310.png)
+
+3. **Sign up Page**
+
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163326.png)
+
+4. **User Profile Page**
+
+    - Users can view a list of movies they have selected previously, complete with movie posters and titles.
+
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163232.png)
+
+- Users can view a list of movies they have selected previously, complete with movie posters and titles.
+- Personalized Movie Recommendations based on the selected movies, the system recommends new movies that match the user's taste.
+    
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20204032.png)
+
+5. **Movie Recommendation Page**
     - Allows users to select up to **5 movies**.
     - Generates recommendations based on content similarity.
     - Provides an option to get more recommendations.
 
-![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-09%20182506.png)
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20200230.png)
 
-![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-09%20192147.png)
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20203829.png)
 
-![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-09%20192216.png)
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20203949.png)
 
-2. **Emotion-Based Recommendation Page**
+5. **Emotion-Based Recommendation Page**
     - Users select an emotion from a predefined list.
     - Suggests movies associated with the emotion's relevant genres.
     - Provides an option to get more recommendations.
    
-![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-09%20182524.png)
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163124.png)
 
-![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-09%20192247.png)
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20203806.png)
+
+![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163153.png)
