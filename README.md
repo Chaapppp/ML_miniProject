@@ -1,5 +1,13 @@
 # **Movie Recommendation System**
 
+#### **จุดเด่น**
+
+    - หน้า login / sign in
+    
+    - หน้า User profile สำหรับแสดงการแนะนำภาพยนตร์ และจัดเก็บประวัติการแนะนำรวมทั้งภาพยนตร์ที่เคยเลือกไว้ ซึ่งจะส่งผลกับการแสดงการแนะนำภาพยนตร์สำหรับผู้ใช้ในครั้งต่อๆ ไป
+    
+    - หน้า Emotion-Based Recommendation สำหรับแสดงการแนะนำภาพยนตร์ตามอารมณ์ที่เลือก โดยสามารถปรับประเภทภาพยนตร์ (genre) ที่เชื่อมโยงกับอารมณ์ของผู้ใช้เองได้ในหน้า Emotion-Based Recommendation
+    
 ### Overview
 This project is a **Movie Recommendation System** that provides movie suggestions based on user-selected movies and emotional states. The system includes two recommendation approaches:
 1. **Content-Based Filtering**: Recommends movies similar to the selected ones.
@@ -74,22 +82,22 @@ The web interface is built using **Streamlit**, and it includes two main pages:
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163310.png)
 
-3. **Sign up Page**
+2. **Sign up Page**
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163326.png)
 
-4. **User Profile Page**
+3. **User Profile Page**
 
     - Users can view a list of movies they have selected previously, complete with movie posters and titles.
+    
+    - Personalized Movie Recommendations based on the selected movies, the system recommends new movies that match the user's taste.
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163232.png)
 
-    - Users can view a list of movies they have selected previously, complete with movie posters and titles.
-    - Personalized Movie Recommendations based on the selected movies, the system recommends new movies that match the user's taste.
     
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20204032.png)
 
-5. **Movie Recommendation Page**
+4. **Movie Recommendation Page**
     - Allows users to select up to **5 movies**.
     - Generates recommendations based on content similarity.
     - Provides an option to get more recommendations.
@@ -100,7 +108,7 @@ The web interface is built using **Streamlit**, and it includes two main pages:
 
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20203949.png)
 
-6. **Emotion-Based Recommendation Page**
+5. **Emotion-Based Recommendation Page**
     - Users select an emotion from a predefined list.
     - Suggests movies associated with the emotion's relevant genres.
     - Provides an option to get more recommendations.
@@ -112,4 +120,4 @@ The web interface is built using **Streamlit**, and it includes two main pages:
 ![Image](https://github.com/Chaapppp/ML_miniProject/blob/main/web%20sample/Screenshot%202025-03-23%20163153.png)
 
 ### Video 
-- **Application**: [YouTube Video]([https://youtu.be/HWr2KuyTWa0](https://youtu.be/c9kyYOUxIbg?si=dtHzKxLA3t5wZgzB)  
+- **Application**: [YouTube Video](https://youtu.be/c9kyYOUxIbg?si=dtHzKxLA3t5wZgzB)
